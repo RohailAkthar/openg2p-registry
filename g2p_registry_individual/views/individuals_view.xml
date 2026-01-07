@@ -8,7 +8,7 @@
             <tree decoration-danger="disabled">
                 <field name="name" />
                 <field name="address" />
-                <field name="phone" />
+                <field name="phone"/>
                 <field
                     name="tags_ids"
                     widget="many2many_tags"
