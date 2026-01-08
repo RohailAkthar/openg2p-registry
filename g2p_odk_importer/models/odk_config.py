@@ -37,7 +37,7 @@ class OdkConfig(models.Model):
         headers = {"Content-Type": "application/json"}
         data = json.dumps({"email": self.username, "password": self.password})
         try:
-            response = requests.post(login_url, headers=headers, data=data, timeout=10)
+            response = requests.post(login_url, headers=headers, data=data, timeout=300)
             response.raise_for_status()
             if response.status_code == 200:
                 response_json = response.json()
@@ -57,7 +57,7 @@ class OdkConfig(models.Model):
         info_url = f"{self.base_url}/v1/users/current"
         headers = {"Authorization": f"Bearer {self.login_get_session_token()}"}
         try:
-            response = requests.get(info_url, headers=headers, timeout=10)
+            response = requests.get(info_url, headers=headers, timeout=300)
             response.raise_for_status()
             if response.status_code == 200:
                 user = response.json()
@@ -83,7 +83,7 @@ class OdkConfig(models.Model):
 
         headers = {"Authorization": f"Bearer {self.login_get_session_token()}"}
         try:
-            response = requests.get(url, headers=headers, params=params, timeout=10)
+            response = requests.get(url, headers=headers, params=params, timeout=300)
             response.raise_for_status()
             data = response.json()
         except Exception as e:
@@ -120,7 +120,7 @@ class OdkConfig(models.Model):
 
         while endpoint:
             # Make the API request
-            response = requests.get(endpoint, headers=headers, params=params, timeout=10)
+            response = requests.get(endpoint, headers=headers, params=params, timeout=300)
             response.raise_for_status()
 
             # Append the submissions
@@ -142,7 +142,7 @@ class OdkConfig(models.Model):
             f"/forms/{self.form_id}/submissions/{instance_id}/attachments"
         )
         headers = {"Authorization": f"Bearer {self.login_get_session_token()}"}
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=300)
         response.raise_for_status()
         return response.json()
 
@@ -152,7 +152,7 @@ class OdkConfig(models.Model):
             f"submissions/{instance_id}/attachments/{filename}"
         )
         headers = {"Authorization": f"Bearer {self.login_get_session_token()}"}
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=300)
         if response.status_code == 404:
             return None
         response.raise_for_status()
