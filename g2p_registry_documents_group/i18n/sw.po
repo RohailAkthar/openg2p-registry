@@ -1,0 +1,42 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* g2p_registry_documents_group
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-27 10:10+0000\n"
+"PO-Revision-Date: 2024-01-27 10:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: g2p_registry_documents_group
+#: model_terms:ir.ui.view,arch_db:g2p_registry_documents_group.view_registrant_documents_form_group
+msgid "Documents"
+msgstr "Nyaraka"
+
+#. module: g2p_registry_documents_group
+#: model_terms:ir.ui.view,arch_db:g2p_registry_documents_group.view_registrant_documents_form_group
+msgid "Name"
+msgstr "Jina"
+
+#. module: g2p_registry_documents_group
+#: model_terms:ir.ui.view,arch_db:g2p_registry_documents_group.view_registrant_documents_form_group
+msgid "Tags"
+msgstr "Lebo"
+
+#. module: g2p_registry_documents_group
+#: model_terms:ir.ui.view,arch_db:g2p_registry_documents_group.view_registrant_documents_form_group
+msgid "File Size"
+msgstr "Ukubwa wa Faili"
+
+#. module: g2p_registry_documents_group
+#: model_terms:ir.ui.view,arch_db:g2p_registry_documents_group.view_registrant_documents_form_group
+msgid "File Type"
+msgstr "Aina ya Faili"
