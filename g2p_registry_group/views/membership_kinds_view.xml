@@ -37,13 +37,12 @@
         <field name="act_window_id" ref="action_group_kind" />
     </record>
 
-    <menuitem
-        id="menu_group_kind"
-        name="Group types"
-        action="action_group_kind"
-        parent="g2p_registry_base.g2p_configuration_menu_root"
-        sequence="30"
-        groups="g2p_registry_base.group_g2p_admin,g2p_registry_base.group_g2p_registrar"
-    />
+    <record id="menu_group_kind" model="ir.ui.menu">
+        <field name="name">Group types</field>
+        <field name="action" ref="action_group_kind" />
+        <field name="parent_id" ref="g2p_registry_base.g2p_configuration_menu_root" />
+        <field name="sequence">30</field>
+        <field name="active" eval="False" />
+    </record>
 
 </odoo>

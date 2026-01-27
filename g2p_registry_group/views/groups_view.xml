@@ -314,13 +314,14 @@
         <field name="act_window_id" ref="action_groups_list" />
     </record>
 
-    <menuitem
-        id="menu_groups_list"
-        name="Groups"
-        action="action_groups_list"
-        parent="g2p_registry_base.g2p_main_menu_root"
-        sequence="10"
-        groups="g2p_registry_base.group_g2p_admin,g2p_registry_base.group_g2p_registrar"
-    />
+    
+    <record id="menu_groups_list" model="ir.ui.menu">
+        <field name="name">Groups</field>
+        <field name="action" ref="action_groups_list" />
+        <field name="parent_id" ref="g2p_registry_base.g2p_main_menu_root" />
+        <field name="sequence">10</field>
+        <field name="active" eval="False" />
+    </record>
+   
 
 </odoo>

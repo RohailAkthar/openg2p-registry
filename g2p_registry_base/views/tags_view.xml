@@ -52,13 +52,12 @@
         <field name="act_window_id" ref="action_registrant_tags" />
     </record>
 
-    <menuitem
-        id="menu_registrant_tags"
-        name="Registrant Tags"
-        action="action_registrant_tags"
-        parent="g2p_registry_base.g2p_configuration_menu_root"
-        sequence="10"
-        groups="g2p_registry_base.group_g2p_admin,g2p_registry_base.group_g2p_registrar"
-    />
+    <record id="menu_registrant_tags" model="ir.ui.menu">
+        <field name="name">Registrant Tags</field>
+        <field name="action" ref="action_registrant_tags" />
+        <field name="parent_id" ref="g2p_registry_base.g2p_configuration_menu_root" />
+        <field name="sequence">10</field>
+        <field name="active" eval="False" />
+    </record>
 
 </odoo>

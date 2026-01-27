@@ -14,8 +14,8 @@
                     widget="many2many_tags"
                     options="{'color_field': 'color', 'no_create_edit': True}"
                     string="Tags"
-                />
-                <field name="birthdate" />
+                    column_invisible="1"
+                />                <field name="birthdate" />
                 <field name="registration_date" />
                 <field name="disabled" column_invisible="1" />
                 <field name="company_id" groups="base.group_multi_company" />

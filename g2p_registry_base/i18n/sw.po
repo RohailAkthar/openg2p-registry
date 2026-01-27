@@ -1,0 +1,746 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* g2p_registry_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2025-12-17 12:56+0000\n"
+"Last-Translator: Swahili G2P Team\n"
+"Language-Team: Swahili <https://translate.openspp.org/projects/openg2p/g2p_registry_base/sw/>\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Perplexity AI Translation Engine\n"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "<span class=\"o_stat_text\">Disable</span>"
+msgstr "<span class=\"o_stat_text\">Zima</span>"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "<span class=\"o_stat_text\">Enable</span>"
+msgstr "<span class=\"o_stat_text\">Washa</span>"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
+msgid "<span class=\"o_stat_text\">Enable</span>\n                                <span class=\"o_stat_text\">Phone No.</span>"
+msgstr "<span class=\"o_stat_text\">Washa</span>\n                                <span class=\"o_stat_text\">Nambari ya Simu</span>"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_needaction
+msgid "Action Needed"
+msgstr "Hatua Inahitajika"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__active
+msgid "Active"
+msgstr "Inafanya Kazi"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_rel
+msgid "Add a Registrant Relationship!"
+msgstr "Ongeza Uhusiano wa Msajili!"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_id
+msgid "Add a Registrant's ID!"
+msgstr "Ongeza Kitambulisho cha Msajili!"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_phone_number
+msgid "Add a Registrant's Phone Number!"
+msgstr "Ongeza Nambari ya Simu ya Msajili!"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_registrant_tags
+msgid "Add a Registrant's Tags!"
+msgstr "Ongeza Lebo za Msajili!"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
+msgid "Add a Relationship!"
+msgstr "Ongeza Uhusiano!"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
+msgid "Add an ID Type!"
+msgstr "Ongeza Aina ya Kitambulisho!"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__address
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__address
+msgid "Address"
+msgstr "Anwani"
+
+#. module: g2p_registry_base
+#: model:res.groups,name:g2p_registry_base.group_g2p_admin
+msgid "Administrator"
+msgstr "Msimamizi"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_registrant_tags__active
+msgid "Archive to hide the RegistrantTag without removing it."
+msgstr "Hifadhi ili kuficha Lebo ya Msajili bila kuiondoa."
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.registrant_tags_filter
+msgid "Archived"
+msgstr "Imehifadhiwa"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_attachment_count
+msgid "Attachment Count"
+msgstr "Idadi ya Viambatanisho"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__bidirectional
+msgid "Bi-directional"
+msgstr "Mwelekeo Pande Mbili"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.disable_registrant_wizard_form_view
+msgid "Cancel"
+msgstr "Ghairisha"
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_id_type
+msgid "Click the create button to enter a new ID type."
+msgstr "Bonyeza kitufe cha kuunda ili kuweka aina mpya ya kitambulisho."
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_relationship
+msgid "Click the create button to enter a new relationship."
+msgstr "Bonyeza kitufe cha kuunda ili kuweka uhusiano mpya."
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_phone_number
+msgid "Click the create button to enter a registrant's phone number."
+msgstr "Bonyeza kitufe cha kuunda ili kuweka nambari ya simu ya msajili."
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_id
+msgid "Click the create button to enter the new registrant's ID information."
+msgstr "Bonyeza kitufe cha kuunda ili kuweka taarifa za kitambulisho cha msajili mpya."
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_registrant_tags
+msgid "Click the create button to enter the new registrant's Tags information."
+msgstr "Bonyeza kitufe cha kuunda ili kuweka taarifa za lebo za msajili mpya."
+
+#. module: g2p_registry_base
+#: model_terms:ir.actions.act_window,help:g2p_registry_base.action_reg_rel
+msgid "Click the create button to enter the new registrant's relationship information."
+msgstr "Bonyeza kitufe cha kuunda ili kuweka taarifa za uhusiano wa msajili mpya."
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__color
+msgid "Color"
+msgstr "Rangi"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__code
+#: model:ir.model.fields,field_description:g2p_registry_base.field_gender_type__code
+msgid "Code"
+msgstr "Simbo"
+
+#. module: g2p_registry_base
+#: model:ir.ui.menu,name:g2p_registry_base.g2p_configuration_menu_root
+msgid "Configuration"
+msgstr "Mpangilio"
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_res_partner
+msgid "Contact"
+msgstr "Mawasiliano"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__country_id
+msgid "Country"
+msgstr "Nchi"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__create_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__create_uid
+msgid "Created by"
+msgstr "Imeundwa na"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__create_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__create_date
+msgid "Created on"
+msgstr "Imeundwa tarehe"
+
+#. module: g2p_registry_base
+#: model:ir.ui.menu,name:g2p_registry_base.g2p_data_mgmt_menu_root
+msgid "Data Management"
+msgstr "Usimamizi wa Data"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__date_collected
+msgid "Date Collected"
+msgstr "Tarehe Iliyokusanywa"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__disabled
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__disabled
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled
+msgid "Date Disabled"
+msgstr "Tarehe Iliyozimwa"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Date Range"
+msgstr "Mwisho wa Tarehe"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__destination
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
+msgid "Destination"
+msgstr "Mahali"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__destination_type
+msgid "Destination partner type"
+msgstr "Aina ya washirika wa mahali"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_disable_registrant_wizard
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.disable_registrant_wizard_form_view
+msgid "Disable"
+msgstr "Zima"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Disable Info"
+msgstr "Taarifa za Kuzima"
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_g2p_disable_registrant_wizard
+msgid "Disable Registrant Wizard"
+msgstr "Mchango wa Kuzima Msajili"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__disabled_by
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__disabled_by
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled_by
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled_by
+msgid "Disabled By"
+msgstr "Imezimwa Na"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__display_name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__display_name
+msgid "Display Name"
+msgstr "Jina la Kuonyesha"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__end_date
+msgid "End Date"
+msgstr "Tarehe ya Mwisho"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__expiry_date
+msgid "Expiry Date"
+msgstr "Tarehe ya Mwisho wa Matumizi"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_follower_ids
+msgid "Followers"
+msgstr "Wafuasi"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Wafuasi (Washirika)"
+
+#. module: g2p_registry_base
+#: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__is_group
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__is_group
+#, python-format
+msgid "Group"
+msgstr "Kundi"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.phone_number_filter
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
+msgid "Group By"
+msgstr "Panga kwa"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__has_message
+msgid "Has Message"
+msgstr "Ina Ujumbe"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__id
+msgid "ID"
+msgstr "Kitambulisho"
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_g2p_id_type
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id_type
+msgid "ID Type"
+msgstr "Aina ya Kitambulisho"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_id_type
+#: model:ir.ui.menu,name:g2p_registry_base.menu_id_type
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
+msgid "ID Types"
+msgstr "Aina za Kitambulisho"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_id_type_tree
+msgid "ID Type Validation"
+msgstr "Uthibitisho wa Aina ya Kitambulisho"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__id_validation
+msgid "Id Validation"
+msgstr "Uthibitisho wa Kitambulisho"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Ikiangaliwa, ujumbe mpya unahitaji umakini wako."
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_error
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Ikiangaliwa, baadhi ya ujumbe zina hitilafu ya usafirishaji."
+
+#. module: g2p_registry_base
+#: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#, python-format
+msgid "Individual"
+msgstr "Mtu Binafsi"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__name_inverse
+msgid "Inverse name"
+msgstr "Jina la Kinyume"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_is_follower
+msgid "Is Follower"
+msgstr "Ni Mfuasi"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Is Related to:"
+msgstr "Inahusiana na:"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard____last_update
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type____last_update
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number____last_update
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id____last_update
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel____last_update
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags____last_update
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship____last_update
+msgid "Last Modified on"
+msgstr "Ilirekebishwa Mara Ya Mwisho Tarehe"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__write_uid
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__write_uid
+msgid "Last Updated by"
+msgstr "Ilisasishwa Mara Ya Mwisho Na"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__write_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__write_date
+msgid "Last Updated on"
+msgstr "Ilisasishwa Mara Ya Mwisho Tarehe"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Kiambatanisho Kuu"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error
+msgid "Message Delivery error"
+msgstr "Hitilafu ya Kusafirisha Ujumbe"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_ids
+msgid "Messages"
+msgstr "Ujumbe"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_id_type__name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__id_type_as_str
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__relation_as_str
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__name
+msgid "Name"
+msgstr "Jina"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Idadi ya Hatua"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
+msgid "Number of errors"
+msgstr "Idadi ya Makosa"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Idadi ya ujumbe unaohitaji hatua"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Idadi ya ujumbe zilizo na hitilafu ya kusafirisha"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,help:g2p_registry_base.field_g2p_reg_rel__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Idadi ya ujumbe zisizosomwa"
+
+#. module: g2p_registry_base
+#: model:ir.module.category,name:g2p_registry_base.openg2p_module
+msgid "OpenG2P Module Access"
+msgstr "Ufikiaji wa Moduli ya OpenG2P"
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_g2p_phone_number
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__phone_no
+msgid "Phone Number"
+msgstr "Nambari ya Simu"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_phone_number
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__phone_number_ids
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__phone_number_ids
+msgid "Phone Numbers"
+msgstr "Nambari za Simu"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__phone_sanitized
+msgid "Phone Sanitized"
+msgstr "Nambari Iliyosafishwa"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__disabled_reason
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__disabled_reason
+msgid "Reason for Disabling"
+msgstr "Sababu ya Kuzima"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__disabled_reason
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.disable_registrant_wizard_form_view
+msgid "Reason for disabling"
+msgstr "Sababu ya kuzima"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_disable_registrant_wizard__partner_id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_phone_number__partner_id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__partner_id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__is_registrant
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__is_registrant
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.phone_number_filter
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
+msgid "Registrant"
+msgstr "Msajili"
+
+#. module: g2p_registry_base
+#: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#, python-format
+msgid "Registrant 1 and Registrant 2 cannot be the same."
+msgstr "Msajili 1 na Msajili 2 hawawezi kuwa sawa."
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_g2p_reg_id
+msgid "Registrant ID"
+msgstr "Kitambulisho cha Msajili"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_reg_id
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__reg_ids
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__reg_ids
+msgid "Registrant IDs"
+msgstr "Kitambulisho cha Msajili"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
+msgid "Registrant Phone Number"
+msgstr "Nambari ya Simu ya Msajili"
+
+#. module: g2p_registry_base
+#: model:ir.model,name:g2p_registry_base.model_g2p_reg_rel
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Registrant Relationship"
+msgstr "Uhusiano wa Msajili"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_reg_rel
+msgid "Registrant Relationships"
+msgstr "Uhusiano wa Msajili"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_registrant_tags
+#: model:ir.model,name:g2p_registry_base.model_g2p_registrant_tags
+#: model:ir.ui.menu,name:g2p_registry_base.menu_registrant_tags
+msgid "Registrant Tags"
+msgstr "Lebo za Msajili"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Registrant:"
+msgstr "Msajili:"
+
+#. module: g2p_registry_base
+#: model:res.groups,name:g2p_registry_base.group_g2p_registrar
+msgid "Registrar"
+msgstr "Msajili"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__registration_date
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__registration_date
+msgid "Registration Date"
+msgstr "Tarehe ya Usajili"
+
+#. module: g2p_registry_base
+#: model:ir.ui.menu,name:g2p_registry_base.g2p_main_menu_root
+msgid "Registry"
+msgstr "Usajili"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__related_1_ids
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__related_1_ids
+msgid "Related to registrant 1"
+msgstr "Inahusiana na msajili 1"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__related_2_ids
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__related_2_ids
+msgid "Related to registrant 2"
+msgstr "Inahusiana na msajili 2"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__relation
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
+msgid "Relation"
+msgstr "Uhusiano"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Relation:"
+msgstr "Uhusiano:"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_relationship
+#: model:ir.model,name:g2p_registry_base.model_g2p_relationship
+msgid "Relationship"
+msgstr "Uhusiano"
+
+#. module: g2p_registry_base
+#: model:ir.ui.menu,name:g2p_registry_base.menu_relationship
+msgid "Relationships"
+msgstr "Uhusiano"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Hitilafu ya Kusafirisha SMS"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.phone_number_filter
+msgid "Search Phone Number"
+msgstr "Tafuta Nambari ya Simu"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_id_filter
+msgid "Search Registrant IDs"
+msgstr "Tafuta Kitambulisho cha Msajili"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
+msgid "Search Registrant Relationships"
+msgstr "Tafuta Uhusiano wa Msajili"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.registrant_tags_filter
+msgid "Search Registrant Tags"
+msgstr "Tafuta Lebo za Msajili"
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Select Destination..."
+msgstr "Chagua Mahali..."
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_phone_number_form
+msgid "Select Registrant..."
+msgstr "Chagua Msajili..."
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Select Relationship..."
+msgstr "Chagua Uhusiano..."
+
+#. module: g2p_registry_base
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_reg_rel_form
+msgid "Select Source..."
+msgstr "Chagua Chanzo..."
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__source
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.reg_rel_filter
+msgid "Source"
+msgstr "Chanzo"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_relationship__source_type
+msgid "Source partner type"
+msgstr "Aina ya washirika wa chanzo"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__start_date
+msgid "Start Date"
+msgstr "Tarehe ya Kuanza"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_district__state_id
+#: model_terms:ir.ui.view,arch_db:g2p_registry_base.view_district_config_tree
+msgid "State"
+msgstr "Mkoa"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_registrant_tags__name
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_partner__tags_ids
+#: model:ir.model.fields,field_description:g2p_registry_base.field_res_users__tags_ids
+msgid "Tags"
+msgstr "Lebo"
+
+#. module: g2p_registry_base
+#: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#, python-format
+msgid "The starting date cannot be after the ending date."
+msgstr "Tarehe ya kuanza haiwezi kuwa baada ya tarehe ya mwisho."
+
+#. module: g2p_registry_base
+#: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#, python-format
+msgid "There is already a similar relation with overlapping dates"
+msgstr "Kuna uhusiano sawa tayari na tarehe zinazopishana"
+
+#. module: g2p_registry_base
+#: code:addons/g2p_registry_base/models/reg_relationship.py:0
+#, python-format
+msgid "This registrant is not applicable for this relation type."
+msgstr "Msajili huyu haifai kwa aina hii ya uhusiano."
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_unread
+msgid "Unread Messages"
+msgstr "Ujumbe zisizosomwa"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_rel__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Kaunta ya Ujumbe zisizosomwa"
+
+#. module: g2p_registry_base
+#: model:ir.module.category,description:g2p_registry_base.openg2p_module
+msgid "User access level for the OpenG2P module"
+msgstr "Kiwango cha ufikiaji wa mtumiaji kwa moduli ya OpenG2P"
+
+#. module: g2p_registry_base
+#: model:ir.model.fields,field_description:g2p_registry_base.field_g2p_reg_id__value
+msgid "Value"
+msgstr "Thamani"
+
+#, python-format
+#~ msgid "Can't delete default ID Type"
+#~ msgstr "Haiwezi kufuta aina ya kitambulisho cha kawaida"
+
+#, python-format
+#~ msgid "Can't edit default ID Type"
+#~ msgstr "Haiwezi kuhariri aina ya kitambulisho cha kawaida"
+
+#, fuzzy
+#~ msgid "Is Related to"
+#~ msgstr "Inahusiana na"
+
+#~ msgid "Registrant 1"
+#~ msgstr "Msajili 1"
+
+#~ msgid "Registrant 2"
+#~ msgstr "Msajili 2"
+
+#~ msgid "Registrant 2 partner type"
+#~ msgstr "Aina ya washirika wa msajili 2"
+
+#~ msgid "Select Registrant 1..."
+#~ msgstr "Chagua Msajili 1..."
+
+#~ msgid "Select Registrant 2..."
+#~ msgstr "Chagua Msajili 2..."
+
+#, python-format
+#~ msgid "The program is not ended yet. Please check in program: %s."
+#~ msgstr "Programu haijamalizika bado. Tafadhali angalia kwenye programu: %s."
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_district_config
+#: model:ir.ui.menu,name:g2p_registry_base.menu_district_config
+msgid "District Configuration"
+msgstr "Mipangilio ya Wilaya"
+
+#. module: g2p_registry_base
+#: model:ir.actions.act_window,name:g2p_registry_base.action_gender_type
+#: model:ir.ui.menu,name:g2p_registry_base.menu_gender_type
+msgid "Gender Types"
+msgstr "Aina za Jinsia"

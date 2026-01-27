@@ -41,13 +41,12 @@
         <field name="act_window_id" ref="action_relationship" />
     </record>
 
-   <menuitem
-        id="menu_relationship"
-        name="Relationships"
-        action="action_relationship"
-        parent="g2p_configuration_menu_root"
-        sequence="20"
-        groups="g2p_registry_base.group_g2p_admin,g2p_registry_base.group_g2p_registrar"
-    />
+    <record id="menu_relationship" model="ir.ui.menu">
+        <field name="name">Relationships</field>
+        <field name="action" ref="action_relationship" />
+        <field name="parent_id" ref="g2p_configuration_menu_root" />
+        <field name="sequence">20</field>
+        <field name="active" eval="False" />
+    </record>
 
 </odoo>

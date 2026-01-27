@@ -1,0 +1,22 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* g2p_registry_membership
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-01-22 14:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Swahili\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: g2p_registry_membership
+#: model:ir.actions.act_window,name:g2p_registry_membership.action_group_membership_kind
+#: model:ir.ui.menu,name:g2p_registry_membership.menu_group_membership_kind
+msgid "Group Membership Kind"
+msgstr "Aina ya Uanachama wa Kikundi"

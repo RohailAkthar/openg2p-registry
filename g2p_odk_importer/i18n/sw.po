@@ -1,0 +1,159 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* g2p_odk_importer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Swahili\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__username
+msgid "Username"
+msgstr "Jina la Mtumiaji"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__password
+msgid "Password"
+msgstr "Nywila"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_config_form
+msgid "Project details"
+msgstr "Maelezo ya Mradi"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__project
+msgid "Project"
+msgstr "Mradi"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__form_id
+msgid "Form ID"
+msgstr "Kitambulisho cha Fomu"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_config_form
+msgid "Session Details"
+msgstr "Maelezo ya Kikao"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__session_token
+msgid "Session Token"
+msgstr "Tokeni ya Kikao"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__session_expires_at
+msgid "Session Expires At"
+msgstr "Kikao Kinaisha Saa"
+
+#. module: g2p_odk_importer
+#: model:ir.actions.act_window,name:g2p_odk_importer.action_odk_import
+#: model:ir.ui.menu,name:g2p_odk_importer.odk_import_menu
+msgid "ODK Import"
+msgstr "Ingiza ODK"
+
+#. module: g2p_odk_importer
+#: model:ir.ui.menu,name:g2p_odk_importer.odk_config_menu
+#: model:ir.actions.act_window,name:g2p_odk_importer.action_odk_config
+msgid "Configuration"
+msgstr "Mipangilio"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__name
+msgid "Name"
+msgstr "Jina"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_import__job_status
+msgid "Status"
+msgstr "Hali"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_import__enable_async
+msgid "Enable Async"
+msgstr "Usawazishaji Usio na Wakati"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_tree
+msgid "Start"
+msgstr "Anza"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields.selection,name:g2p_odk_importer.selection__odk_import__job_status__draft
+msgid "Draft"
+msgstr "Rasimu"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_form
+msgid "Test Connection"
+msgstr "Jaribu Muunganisho"
+
+#. module: g2p_odk_importer
+#: model:ir.model,name:g2p_odk_importer.model_odk_config
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_config_form
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_form
+msgid "ODK Configuration"
+msgstr "Mpangilio wa ODK"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_import__odk_config
+msgid "ODK Config"
+msgstr "Mpangilio wa ODK"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_form
+msgid "Target settings"
+msgstr "Mipangilio Lengwa"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_import__target_registry
+msgid "Target Registry"
+msgstr "Daftari Lengwa"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_import__json_formatter
+msgid "JSON Formatter"
+msgstr "Kihariri cha JSON"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_form
+msgid "Time interval"
+msgstr "Muda wa Usawazishaji"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_import__interval_hours
+msgid "Interval in hours"
+msgstr "Muda kwa Saa"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_form
+msgid "Additional Settings"
+msgstr "Mipangilio ya Ziada"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_import__enable_import_by_instance_id
+msgid "Enable Import By Instance"
+msgstr "Washa Uingizaji kwa Kitambulisho"
+
+#. module: g2p_odk_importer
+#: model:ir.model.fields,field_description:g2p_odk_importer.field_odk_config__base_url
+msgid "Base URL"
+msgstr "URL ya Msingi"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_form
+msgid "Import Records"
+msgstr "Ingiza Kumbukumbu"
+
+#. module: g2p_odk_importer
+#: model_terms:ir.ui.view,arch_db:g2p_odk_importer.view_odk_import_form
+msgid "<span class=\"o_stat_text\">Start</span>"
+msgstr "Anza"
