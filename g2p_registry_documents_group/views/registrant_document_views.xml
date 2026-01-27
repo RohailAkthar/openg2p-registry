@@ -15,11 +15,11 @@
                     >
                         <tree default_order="id desc">
                             <field name="name" readonly="1" column_invisible="1" />
-                            <field name="tags_ids" widget="many2many_tags" string="Lebo" />
-                            <field name="slug" string="Jina" />
+                            <field name="tags_ids" widget="many2many_tags" string="Tags" />
+                            <field name="slug" string="Name" />
                             <field name="url" readonly="1" column_invisible="1" />
-                            <field name="file_size" string="Ukubwa wa Faili" />
-                            <field name="file_type" string="Aina ya Faili" />
+                            <field name="file_size" string="File Size" />
+                            <field name="file_type" string="File Type" />
                             <field name="mimetype" readonly="1" column_invisible="1" />
                             <!-- Widget provided by g2p_documents module for document preview and viewing -->
                             <widget name="g2p_documents_action_preview" />
