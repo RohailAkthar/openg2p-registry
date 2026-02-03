@@ -16,9 +16,6 @@
                     </a>
 
                     <ol class="breadcrumb  breadcrumb-list bg-transparent col-6">
-                        <li class="breadcrumb-item">
-                            <a href="/portal/home">Dashboard</a>
-                        </li>
                         <li class="breadcrumb-item active" aria-current="page">Household</li>
                     </ol>
                     <div class="table-container">
@@ -45,7 +42,7 @@
                                         />
                                     </svg>
                                     <input
-                                        placeholder="Search by / Beneficiary"
+                                        placeholder="Search by Beneficiary"
                                         class="search-text"
                                         name="q"
                                         id="search-text"
@@ -80,7 +77,7 @@
                                             <td>
                                             </td>
                                             <td
-                                                style="color:#704880; font: normal normal 600 13px/16px Inter;"
+                                                style="color:#1e40af; font: normal normal 600 13px/16px Inter;"
                                             >
                                                 <t t-out="group['name']" />
                                             </td>
@@ -148,11 +145,6 @@
 
                     <div class="form-template">
                         <ol class="breadcrumb form-layout-breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="/portal">
-                                    Dashboard
-                                </a>
-                            </li>
                             <li class="breadcrumb-item">
                                 <a href="/portal/registration/group">
                                     Household
@@ -225,7 +217,7 @@
                                                                 name="name"
                                                                 class="form-control"
                                                                 required="required"
-                                                                placeholder="FirstName  MiddleName  LastName"
+                                                                placeholder="FirstName LastName"
                                                                 t-att-value="beneficiary.name if beneficiary.name else ''"
                                                             />
                                                         </div>
@@ -385,7 +377,7 @@
                                                                                     <t t-out="counter" />
                                                                                 </td>
                                                                                 <td
-                                                                                    style="color:#704880; font: normal normal 600 13px/16px Inter;"
+                                                                                    style="color:#1e40af; font: normal normal 600 13px/16px Inter;"
                                                                                 >
                                                                                     <t
                                                                                         t-out="individual.name"
@@ -520,7 +512,7 @@
                                                             <div class="modal-body" style="overflow:hidden">
                                                                 <div class="s_website_form_rows">
                                                                     <div class="row mem-row">
-                                                                        <div class="col-lg-4">
+                                                                        <div class="col-lg-6">
                                                                             <div>
                                                                                 <label
                                                                                     class="s_website_form_label"
@@ -545,7 +537,7 @@
                                                                                 />
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-lg-4">
+                                                                        <div class="col-lg-6 d-none">
                                                                             <div>
                                                                                 <label
                                                                                     class="s_website_form_label"
@@ -566,7 +558,7 @@
                                                                                 />
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-lg-4">
+                                                                        <div class="col-lg-6">
                                                                             <div>
                                                                                 <label
                                                                                     class="s_website_form_label"
@@ -803,7 +795,7 @@
                                                 <button
                                                     type="button"
                                                     class="btn btn-outline-primary"
-                                                    onclick="location.href = '/portal/home';"
+                                                    onclick="location.href = '/portal/registration/group';"
                                                 >
                                                     Cancel
                                                 </button>
@@ -840,11 +832,6 @@
                     <div class="form-template">
 
                         <ol class="breadcrumb form-layout-breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="/portal/home">
-                                    Dashboard
-                                </a>
-                            </li>
                             <li class="breadcrumb-item">
                                 <a href="/portal/registration/group">
                                     Household
@@ -912,7 +899,7 @@
                                                                 name="name"
                                                                 class="form-control"
                                                                 required="required"
-                                                                placeholder="FirstName  MiddleName  LastName"
+                                                                placeholder="FirstName LastName"
                                                             />
                                                         </div>
                                                     </div>
@@ -1060,7 +1047,7 @@
                                                                             <td>
                                                                             </td>
                                                                             <td
-                                                                                style="color:#704880; font: normal normal 600 13px/16px Inter;"
+                                                                                style="color:#1e40af; font: normal normal 600 13px/16px Inter;"
                                                                             >
                                                                                 <t t-out="individual.name" />
                                                                             </td>
@@ -1160,7 +1147,7 @@
                                                             <div class="modal-body" style="overflow:hidden">
                                                                 <div class="s_website_form_rows">
                                                                     <div class="row mem-row">
-                                                                        <div class="col-lg-4">
+                                                                        <div class="col-lg-6">
                                                                             <div>
                                                                                 <label
                                                                                     class="s_website_form_label"
@@ -1185,7 +1172,7 @@
                                                                                 />
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-lg-4">
+                                                                        <div class="col-lg-6 d-none">
                                                                             <div>
                                                                                 <label
                                                                                     class="s_website_form_label"
@@ -1206,7 +1193,7 @@
                                                                                 />
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-lg-4">
+                                                                        <div class="col-lg-6">
                                                                             <div>
                                                                                 <label
                                                                                     class="s_website_form_label"
@@ -1446,7 +1433,7 @@
                                                 <button
                                                     type="button"
                                                     class="btn btn-outline-primary"
-                                                    onclick="location.href = '/portal/home';"
+                                                    onclick="location.href = '/portal/registration/group';"
                                                 >
                                                     Cancel
                                                 </button>

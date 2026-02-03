@@ -628,3 +628,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
 msgid "inactive"
 msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "All Beneficiaries"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Beneficiary List"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "List of All Beneficiaries |Registration Portal"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Zanzibar Universal Pension Scheme"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Search by Beneficiary"
+msgstr ""
+

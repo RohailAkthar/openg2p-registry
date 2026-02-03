@@ -11,6 +11,31 @@ _logger = logging.getLogger(__name__)
 
 
 class G2PregistrationPortalBase(AgentPortalBase):
+    @http.route(["/portal"], type="http", auth="public")
+    def portal_root(self, **kwargs):
+        if request.session and request.session.uid:
+            return request.redirect("/portal/registration/individual")
+        else:
+            return request.redirect("/portal/login")
+
+    @http.route(["/portal/login"], type="http", auth="public")
+    def registration_login(self, **kwargs):
+        from odoo.addons.web.controllers.home import Home
+        redirect_uri = request.params.get("redirect") or "/portal/registration/individual"
+        if request.session and request.session.uid:
+            return request.redirect(redirect_uri)
+
+        context = {}
+
+        if request.httprequest.method == "POST":
+            res = Home().web_login(**kwargs)
+            if request.params.get("login_success"):
+                return res
+            else:
+                context["error"] = "Invalid Credentials"
+
+        return request.render("g2p_agent_portal_base.login_page", qcontext=context)
+
     ################################################################################
     #                      Controllers for Household Creation,                     #
     #                        Submission, and Update                                #
@@ -56,7 +81,7 @@ class G2PregistrationPortalBase(AgentPortalBase):
 
         return request.render(
             "g2p_registration_portal_base.group_create_form_template",
-            {"gender": gender},
+            {"gender": gender, "individuals": [], "group": request.env["res.partner"].sudo()},
         )
 
     @http.route(
@@ -444,7 +469,7 @@ class G2PregistrationPortalBase(AgentPortalBase):
                     ("active", "=", True),
                     ("is_registrant", "=", True),
                     ("is_group", "=", False),
-                    ("user_id", "=", user.id),
+                    # ("user_id", "=", user.id),
                 ]
             )
         )

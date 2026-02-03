@@ -64,6 +64,23 @@ class AgentPortalBase(http.Controller):
     def portal_other_page(self, **kwargs):
         return request.render("g2p_agent_portal_base.other_page")
 
+    @http.route("/website/lang/<string:lang>", type="http", auth="public", csrf=False)
+    def change_lang(self, lang, r="/", **kwargs):
+        if lang:
+            # Find the best match for the language code
+            lang_record = request.env["res.lang"].sudo().search([("code", "=", lang)], limit=1)
+            if not lang_record:
+                lang_record = request.env["res.lang"].sudo().search([("iso_code", "=", lang)], limit=1)
+            if not lang_record:
+                lang_record = request.env["res.lang"].sudo().search([("code", "like", lang + "_%")], limit=1)
+            
+            if lang_record:
+                lang_code = lang_record.code
+                request.session["context"] = dict(request.session.get("context", {}), lang=lang_code)
+                if request.uid:
+                    request.env.user.sudo().write({"lang": lang_code})
+        return request.redirect(r)
+
     def check_roles(self, role_to_check):
         if role_to_check == "Agent":
             if not request.session or not request.env.user:

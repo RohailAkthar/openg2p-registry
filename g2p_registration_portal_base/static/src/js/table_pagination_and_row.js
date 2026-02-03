@@ -7,13 +7,13 @@ const itemsPerPage = 7;
 const maxVisiblePages = 5;
 let currentPage = 1;
 
-function addTableSrNo() {
-    for (let i = 0; i < totalRow; i++) {
-        tbody[0].children[i].firstElementChild.innerText = i + 1;
-    }
-}
+// function addTableSrNo() {
+//     for (let i = 0; i < totalRow; i++) {
+//         tbody[0].children[i].firstElementChild.innerText = i + 1;
+//     }
+// }
 
-addTableSrNo();
+// addTableSrNo();
 let filteredRows = [];
 function showPage(page) {
     const startIndex = (page - 1) * itemsPerPage;
@@ -145,10 +145,10 @@ allheadercells.forEach(function (th) {
         allRows.forEach((row) => {
             alltable.tBodies[0].appendChild(row);
         });
-        allRows.forEach((row, index) => {
-            const firstCell = row.cells[0];
-            firstCell.innerText = index + 1;
-        });
+        // allRows.forEach((row, index) => {
+        //     const firstCell = row.cells[0];
+        //     firstCell.innerText = index + 1;
+        // });
         currentPage = 1;
         showPage(currentPage);
         renderPageButtons();

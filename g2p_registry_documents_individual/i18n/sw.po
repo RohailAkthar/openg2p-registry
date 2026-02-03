@@ -40,3 +40,8 @@ msgstr "Ukubwa wa Faili"
 #: model_terms:ir.ui.view,arch_db:g2p_registry_documents_individual.view_registrant_documents_form_individual
 msgid "File Type"
 msgstr "Aina ya Faili"
+
+#. module: g2p_registry_documents_individual
+#: model_terms:ir.ui.view,arch_db:g2p_registry_documents_individual.view_registrant_documents_form_individual
+msgid "Preview"
+msgstr "Hakiki"

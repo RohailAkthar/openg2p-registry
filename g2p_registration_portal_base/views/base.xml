@@ -5,8 +5,40 @@
             <attribute name="src">/g2p_registration_portal_base/static/src/img/logo@2x.png</attribute>
         </xpath>
 
-        <xpath expr="//footer//img[@class='main-logo']" position="attributes">
-            <attribute name="src">/g2p_registration_portal_base/static/src/img/logo@2x.png</attribute>
+        <xpath expr="//footer//img[@class='main-logo']" position="replace"/>
+
+        <xpath expr="//div[hasclass('language-dropdown')]" position="replace">
+            <div class="language-dropdown language-box border-0">
+                <button
+                    class="dropdown-toggle button border-0 bg-transparent text-white d-flex align-items-center"
+                    type="button"
+                    id="language-dropdown-button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                >
+                    <i class="fa fa-globe me-2" style="font-size: 1.2rem;"/>
+                    <span class="text-uppercase" style="font-weight: 600;">English</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="language-dropdown-button">
+                    <a
+                        class="dropdown-item"
+                        href="/website/lang/en?r=/portal"
+                        data-url_code="en"
+                    >
+                        <span>English</span>
+                    </a>
+
+                    <a
+                        class="dropdown-item"
+                        href="/website/lang/sw?r=/portal"
+                        data-url_code="sw"
+                    >
+                        <span>Swahili</span>
+                    </a>
+                </div>
+            </div>
         </xpath>
+        <xpath expr="//div[hasclass('search-box')]" position="replace"/>
     </template>
 </odoo>

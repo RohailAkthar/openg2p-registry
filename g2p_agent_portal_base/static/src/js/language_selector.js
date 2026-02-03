@@ -22,13 +22,18 @@ dropdownItems.forEach(function (item) {
     item.addEventListener("click", function () {
         const languageText = this.querySelector("span").textContent;
         console.log(languageText);
-        const languageFlag = this.querySelector("img").src;
+        const languageFlagImg = this.querySelector("img");
+        const languageFlag = languageFlagImg ? languageFlagImg.src : null;
         const button = document.querySelector(".language-dropdown button");
         const buttonSpan = button.querySelector("span");
         const buttonFlag = button.querySelector("img");
-        buttonSpan.textContent = languageText;
-        buttonFlag.src = languageFlag;
-        buttonFlag.alt = languageText;
+        if (buttonSpan) {
+            buttonSpan.textContent = languageText;
+        }
+        if (buttonFlag && languageFlag) {
+            buttonFlag.src = languageFlag;
+            buttonFlag.alt = languageText;
+        }
         localStorage.setItem("selectedLanguage", languageText);
     });
 });
@@ -40,13 +45,18 @@ if (localStorage.getItem("selectedLanguage")) {
     dropdownItems.forEach(function (item) {
         const languageText = item.querySelector("span");
         if (languageText && languageText.textContent === selectedLanguage) {
-            const languageFlag = item.querySelector("img").src;
+            const languageFlagImg = item.querySelector("img");
+            const languageFlag = languageFlagImg ? languageFlagImg.src : null;
             const button = document.querySelector(".language-dropdown button");
             const buttonSpan = button.querySelector("span");
             const buttonFlag = button.querySelector("img");
-            buttonSpan.textContent = selectedLanguage;
-            buttonFlag.src = languageFlag;
-            buttonFlag.alt = selectedLanguage;
+            if (buttonSpan) {
+                buttonSpan.textContent = selectedLanguage;
+            }
+            if (buttonFlag && languageFlag) {
+                buttonFlag.src = languageFlag;
+                buttonFlag.alt = selectedLanguage;
+            }
         }
     });
 }

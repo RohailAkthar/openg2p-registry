@@ -3,10 +3,10 @@
     <!-- #list -->
     <template id="individual_list" name="G2P Registration Portal Individual">
         <t t-call="g2p_agent_portal_base.base">
-            <t t-set="title">List of Individual beneficiary |Registration Portal</t>
+            <t t-set="title">List of All Beneficiaries |Registration Portal</t>
             <div class="main-container">
                 <div class="container-adjuster">
-                    <h5 class="all-title">Individual</h5>
+                    <h5 class="all-title">All Beneficiaries</h5>
                     <a t-attf-href="/portal/registration/individual/create/" style="float:right;">
                         <button type="button" class="btn btn-primary create-new"> Create New <span
                                 class="mx-1"
@@ -16,16 +16,13 @@
                     </a>
 
                     <ol class="breadcrumb  breadcrumb-list bg-transparent col-6">
-                        <li class="breadcrumb-item">
-                            <a href="/portal/home">Dashboard</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">Individual</li>
+                        <li class="breadcrumb-item active" aria-current="page">Zanzibar Universal Pension Scheme</li>
                     </ol>
                     <div class="table-container">
                         <div class="table-head-container">
                             <div id="head_name_rec">
-                                <p class="table-title">Individual List</p>
-                                <p style="color: #783E83; margin-left:25px">
+                                <p class="table-title">Beneficiary List</p>
+                                <p style="color: #1e40af; margin-left:25px">
                                     <t t-out="len(individual)" />&amp;nbsp;Records </p>
                             </div>
 
@@ -45,7 +42,7 @@
                                         />
                                     </svg>
                                     <input
-                                        placeholder="Search by / Beneficiary"
+                                        placeholder="Search by Beneficiary"
                                         class="search-text"
                                         name="q"
                                         id="search-text"
@@ -56,7 +53,7 @@
                                 </div>
                                 <div
                                     id="search-result-count"
-                                    style="color: #783E83;font-weight:500;padding:5px"
+                                    style="color: #1e40af;font-weight:500;padding:5px"
                                 />
                             </form>
                         </div>
@@ -65,7 +62,7 @@
                             <table id="newreimbursements">
                                 <thead>
                                     <tr>
-                                        <th>Sr.No.</th>
+                                        <th>Zan ID</th>
                                         <th>Name</th>
                                         <th>Last name</th>
                                         <th>Gender</th>
@@ -78,9 +75,10 @@
                                     <t t-foreach="individual" t-as="group">
                                         <tr>
                                             <td>
+                                                <t t-out="group['benf_zan_id']" />
                                             </td>
                                             <td
-                                                style="color:#704880; font: normal normal 600 13px/16px Inter;"
+                                                style="color:#1e40af; font: normal normal 600 13px/16px Inter;"
                                             >
                                                 <t t-out="group['given_name']" />
                                             </td>
@@ -150,11 +148,6 @@
 
                         <ol class="breadcrumb form-layout-breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="/portal/home">
-                                    Dashboard
-                                </a>
-                            </li>
-                            <li class="breadcrumb-item">
                                 <a href="/portal/registration/individual">
                                     Individual
                                 </a>
@@ -206,7 +199,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="row mem-ind-row">
-                                                                            <div class="col-lg-4">
+                                                                            <div class="col-lg-6">
                                                                                 <div>
                                                                                     <label
                                                                         class="s_website_form_label"
@@ -232,7 +225,7 @@
                                                                     />
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="col-lg-4">
+                                                                            <div class="col-lg-4 d-none">
                                                                                 <div>
                                                                                     <label
                                                                         class="s_website_form_label"
@@ -254,7 +247,7 @@
                                                                     />
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="col-lg-4">
+                                                                            <div class="col-lg-6">
                                                                                 <div>
                                                                                     <label
                                                                         class="s_website_form_label"
@@ -361,7 +354,7 @@
                                                 <button
                                                     type="button"
                                                     class="btn btn-outline-primary"
-                                                    onclick="location.href = '/portal/home';"
+                                                    onclick="location.href = '/portal/registration/individual';"
                                                 >
                                                     Cancel
                                                 </button>
@@ -406,11 +399,6 @@
                     <div class="form-template">
 
                         <ol class="breadcrumb form-layout-breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="/portal/home">
-                                    Dashboard
-                                </a>
-                            </li>
                             <li class="breadcrumb-item">
                                 <a href="/portal/registration/individual">
                                     Individual
@@ -463,7 +451,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="row mem-ind-row">
-                                                                            <div class="col-lg-4">
+                                                                            <div class="col-lg-6">
                                                                                 <div>
                                                                                     <label
                                                                         class="s_website_form_label"
@@ -488,7 +476,7 @@
                                                                     />
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="col-lg-4">
+                                                                            <div class="col-lg-4 d-none">
                                                                                 <div>
                                                                                     <label
                                                                         class="s_website_form_label"
@@ -509,7 +497,7 @@
                                                                     />
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="col-lg-4">
+                                                                            <div class="col-lg-6">
                                                                                 <div>
                                                                                     <label
                                                                         class="s_website_form_label"
@@ -618,7 +606,7 @@
                                                 <button
                                                     type="button"
                                                     class="btn btn-outline-primary"
-                                                    onclick="location.href = '/portal/home';"
+                                                    onclick="location.href = '/portal/registration/individual';"
                                                 >
                                                     Cancel
                                                 </button>
