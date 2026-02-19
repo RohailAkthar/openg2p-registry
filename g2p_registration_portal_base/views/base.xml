@@ -5,7 +5,7 @@
             <div class="d-flex align-items-center">
                 <img src="/g2p_registration_portal_base/static/src/img/logo@2x.png" class="main-logo me-3" alt="Official Logo"/>
                 <span class="header-text text-white fw-bold" style="font-size: 1.1rem; line-height: 1.2;">
-                    Zanzibar Universal Pension Scheme <br/> Registration portal
+                    Zanzibar Universal Pension Scheme <br/> Registration Portal
                 </span>
             </div>
         </xpath>
