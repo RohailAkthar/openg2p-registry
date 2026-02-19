@@ -1,5 +1,4 @@
 import logging
-from argparse import _AppendAction
 
 from werkzeug.exceptions import Forbidden, Unauthorized
 
@@ -86,4 +85,4 @@ class AgentPortalBase(http.Controller):
             if not request.session or not request.env.user:
                 raise Unauthorized(_("User is not logged in"))
             if not request.env.user.partner_id.supplier_rank > 0:
-                raise Forbidden(_AppendAction("User is not allowed to access the portal"))
+                raise Forbidden(_("User is not allowed to access the portal"))

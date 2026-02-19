@@ -5,8 +5,11 @@
         name="G2P Service Provider Portal Login"
         inherit_id="g2p_agent_portal_base.login_page"
     >
-        <xpath expr="//div[@class='logo-box']/img" position="attributes">
-            <attribute name="src">/g2p_registration_portal_base/static/src/img/logo.png</attribute>
+        <xpath expr="//div[@class='logo-box']" position="replace">
+            <div class="logo-box d-flex align-items-center justify-content-center">
+                <img src="/g2p_registration_portal_base/static/src/img/logo.png" class="logo me-2" alt="Official Logo"/>
+                <span class="logo-text fw-bold">ZUPS Registration Portal</span>
+            </div>
         </xpath>
         <xpath expr="//input[@name='redirect']" position="attributes">
             <attribute name="value">/portal/registration/individual</attribute>
