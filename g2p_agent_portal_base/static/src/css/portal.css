@@ -23,6 +23,7 @@
     font-style: italic;
     font-weight: 400;
 }
+
 @font-face {
     font-family: "Inter";
     src: url("fonts/Inter-Medium.woff") format("woff");
@@ -72,6 +73,7 @@ footer#bottom {
     box-shadow: 0px 4px 5px #0000000d;
     opacity: 1;
 }
+
 footer#bottom .footer-container {
     /* width: auto; */
     margin: auto;
@@ -138,12 +140,15 @@ footer#bottom .footer-container .nav {
 }
 
 .ssp-login-box .logo {
-    width: 67%;
-    height: 67%;
-    opacity: 1;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 20px;
+    width: 100px;
+    height: auto;
+    margin: 0 !important;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    color: #333;
+    font-family: Inter;
 }
 
 .ssp-login-box .field-login label,
@@ -225,6 +230,7 @@ footer#bottom .footer-container .nav {
     box-shadow: 0px 4px 5px #0000000d; */
     opacity: 1;
 }
+
 .header-container .nav {
     /* Layout Properties */
     top: 0px;
@@ -240,8 +246,9 @@ footer#bottom .footer-container .nav {
     align-items: center;
     opacity: 1;
 }
+
 .header-container .nav .main-logo {
-    width: 272px;
+    width: auto;
     height: 58px;
     /* UI Properties */
     margin-top: 16px;
@@ -249,10 +256,16 @@ footer#bottom .footer-container .nav {
 
     opacity: 1;
 }
+
+.header-text {
+    font-family: Inter, sans-serif;
+}
+
 .header-container .nav .nav-user {
     display: flex;
     width: 473px;
 }
+
 .nav-user .search-box {
     left: 741px;
     width: 273px;
@@ -269,10 +282,12 @@ footer#bottom .footer-container .nav {
     justify-content: start;
     align-items: center;
 }
+
 .nav-user .search-box .search-text {
     border: none;
     margin-left: 10px;
 }
+
 .nav-user .search-box .search-text:focus {
     outline: none;
 }
@@ -290,6 +305,7 @@ footer#bottom .footer-container .nav {
     box-shadow: 0px 3px 6px #0000000d;
     opacity: 1;
 }
+
 .closebtn {
     margin-left: 740px;
     width: 14px;
@@ -308,6 +324,7 @@ footer#bottom .footer-container .nav {
     color: #ffffff;
     opacity: 1;
 }
+
 ::-webkit-input-placeholder {
     /* Edge */
     color: #b9b9b9;
@@ -331,9 +348,11 @@ footer#bottom .footer-container .nav {
     border-radius: 6px;
     opacity: 1;
 }
+
 .nav-user .language-box:focus {
     outline: none;
 }
+
 .nav-user .language-box .button {
     height: 40px;
     /* UI Properties */
@@ -343,9 +362,11 @@ footer#bottom .footer-container .nav {
     border-radius: 6px;
     opacity: 1;
 }
+
 .nav-user .language-box .button:focus {
     outline: none;
 }
+
 .nav-user .language-box .button span {
     height: 15px;
     width: 41px;
@@ -355,6 +376,7 @@ footer#bottom .footer-container .nav {
     color: #4d4c4c;
     opacity: 1;
 }
+
 .nav-user .language-box .button .flag {
     width: 18px;
     height: 12px;
@@ -408,9 +430,11 @@ footer#bottom .footer-container .nav {
     text-align: left;
     font: normal 15px inter;
 }
+
 .dropdown-menu ul li a:hover {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -423,6 +447,7 @@ a:hover {
     background: #ffffff 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
 .footer-container .nav {
     top: 0px;
     left: 0px;
@@ -435,26 +460,31 @@ a:hover {
     justify-content: space-between;
     opacity: 1;
 }
+
 .footer-container .nav .main-logo {
     width: 272px;
     height: 58px;
     margin-top: 36px;
     opacity: 1;
 }
+
 .footer-container .nav .list-container {
     display: flex;
     justify-content: space-between;
     margin-top: 57px;
 }
+
 .list-container .nav-item {
     list-style: none;
 }
+
 .list-container .nav-item .link {
     font: normal 13px Inter;
     letter-spacing: 0px;
     color: #484848;
     opacity: 1;
 }
+
 .footer-container .copyright {
     /* UI Properties */
     margin-top: 25px;
@@ -534,6 +564,7 @@ li div a {
     color: #484848;
     opacity: 1;
 }
+
 li div p {
     height: 16px;
     text-align: left;
@@ -552,6 +583,7 @@ li div p {
     border-radius: 4px;
     opacity: 1;
 }
+
 .badge-button span {
     width: 26px;
     height: 14px;
@@ -571,6 +603,7 @@ li div p {
     color: #484848;
     opacity: 1;
 }
+
 .breadcrumb-list {
     /* margin-left: 9%; */
     margin-right: 10%;
@@ -580,6 +613,7 @@ li div p {
     opacity: 1;
     padding-left: 0px;
 }
+
 .breadcrumb-list .breadcrumb-item a {
     width: 40px;
     height: 17px;
@@ -590,15 +624,18 @@ li div p {
     color: #494daf;
     opacity: 1;
 }
+
 .invisible {
     display: none;
 }
+
 #chartContainer {
     width: 220px;
     height: 220px;
     margin: auto;
 }
-.breadcrumb-item + .breadcrumb-item::before {
+
+.breadcrumb-item+.breadcrumb-item::before {
     content: " \003E ";
     color: #000000 0% 0% no-repeat padding-box;
 }
@@ -616,6 +653,7 @@ li div p {
     margin-left: 5px;
     padding-right: 25px;
 }
+
 #seacrh-text-clear {
     display: none;
     cursor: pointer;
@@ -638,12 +676,14 @@ li div p {
     display: flex;
     justify-content: space-between;
 }
+
 .aboutus-header .logo1 {
     width: 274px;
     height: 57px;
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
 .aboutus-header .logo2 {
     width: 156px;
     height: 82px;
@@ -651,6 +691,7 @@ li div p {
     border-radius: 10px;
     opacity: 1;
 }
+
 .aboutus-container .header-section {
     width: 100%;
     height: 118px;
@@ -660,6 +701,7 @@ li div p {
     margin-bottom: 44px;
     opacity: 1;
 }
+
 .header-section h1 {
     width: 270px;
     height: 20px;
@@ -669,6 +711,7 @@ li div p {
     color: #333333;
     opacity: 1;
 }
+
 .header-section p {
     width: 100%;
     height: 34px;
@@ -677,12 +720,14 @@ li div p {
     color: #333333;
     opacity: 1;
 }
+
 .aboutus-container .section1 {
     width: 100%;
     height: 183px;
     margin-bottom: 44px;
     opacity: 1;
 }
+
 .section1 h1 {
     width: 247px;
     height: 20px;
@@ -692,6 +737,7 @@ li div p {
     color: #333333;
     opacity: 1;
 }
+
 .section1 p {
     width: 100%;
     height: 153px;
@@ -708,6 +754,7 @@ li div p {
     justify-content: space-between;
     opacity: 1;
 }
+
 .section2 div {
     width: 50%;
     margin-top: 91px;
@@ -723,6 +770,7 @@ li div p {
     color: #333333;
     opacity: 1;
 }
+
 .section2 div p {
     width: 80%;
     height: 51px;
@@ -756,6 +804,7 @@ li div p {
     border-radius: 10px;
     opacity: 1;
 }
+
 .profile-container div {
     margin-left: 23%;
     margin-right: 23%;
@@ -763,6 +812,7 @@ li div p {
     height: 76px;
     opacity: 1;
 }
+
 .profile-container div h1 {
     margin-left: 23%;
     margin-right: 23%;

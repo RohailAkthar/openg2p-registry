@@ -7,7 +7,8 @@
         <field name="arch" type="xml">
             <tree decoration-danger="disabled">
                 <field name="name" />
-                <field name="address" />
+                <field name="address" column_invisible="1" />
+                <!-- <field name="benf_zan_id" /> -->
                 <field name="phone"/>
                 <field
                     name="tags_ids"
