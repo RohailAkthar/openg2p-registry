@@ -44,15 +44,19 @@ function updatePaginationButtons() {
 
 function applySearchFilter(searchValue) {
     filteredRows = allRows.filter((row) => {
+        const cellValue0 = row.cells[0] ? row.cells[0].innerText.toLowerCase() : "";
         const cellValue1 = row.cells[1] ? row.cells[1].innerText.toLowerCase() : "";
         const cellValue2 = row.cells[2] ? row.cells[2].innerText.toLowerCase() : "";
         const cellValue3 = row.cells[3] ? row.cells[3].innerText.toLowerCase() : "";
-        const cellValue4 = row.cells[6] ? row.cells[6].innerText.toLowerCase() : "";
+
+        // Exact match for 'male' to avoid matching 'female'
+        const isGenderMatch = (searchValue === 'male') ? (cellValue2 === 'male') : cellValue2.includes(searchValue);
+
         return (
+            cellValue0.includes(searchValue) ||
             cellValue1.includes(searchValue) ||
-            cellValue2.includes(searchValue) ||
-            cellValue3.includes(searchValue) ||
-            cellValue4.includes(searchValue)
+            isGenderMatch ||
+            cellValue3.includes(searchValue)
         );
     });
 }
