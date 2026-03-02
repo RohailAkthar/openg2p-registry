@@ -14,7 +14,7 @@
                         <div class="table-head-container">
                             <div id="head_name_rec">
                                 <p class="table-title">Beneficiary List</p>
-                                <p style="color: #1e40af; margin-left:25px">
+                                <p id="total-records-count" style="color: #1e40af; margin-left:25px">
                                     <t t-out="len(individual)" />&amp;nbsp;Records </p>
                             </div>
 
@@ -79,21 +79,22 @@
                                 <tbody>
                                     <t t-foreach="individual" t-as="group">
                                         <tr>
-                                            <td>
+                                            <td data-search-field="zanid">
                                                 <t t-out="group['benf_zan_id']" />
                                             </td>
                                             <td
                                                 style="color:#1e40af; font: normal normal 600 13px/16px Inter;"
+                                                data-search-field="name"
                                             >
                                                 <t t-out="group['given_name']" />
                                             </td>
-                                            <td>
+                                            <td data-search-field="name">
                                                 <t t-out="group['family_name']" />
                                             </td>
-                                            <td>
+                                            <td data-search-field="gender">
                                                 <t t-out="group['gender']" />
                                             </td>
-                                            <td>
+                                            <td data-search-field="last_update">
                                                 <t t-out="group.write_date.date()" />
                                             </td>
                                             <td>
