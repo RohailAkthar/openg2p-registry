@@ -11,34 +11,46 @@ $(document).ready(function () {
 function validateForm(isCreateForm) {
     var requiredFields = document.querySelectorAll(".s_website_form_field [required]");
     var isValid = true;
+    var firstInvalidCollapse = null;
 
     requiredFields.forEach(function (field) {
-        var existingErrorMessage = field.parentNode.querySelector(".error-message");
+        var fieldWrapper = field.closest(".s_website_form_field");
+        var existingErrorMessage = fieldWrapper ? fieldWrapper.querySelector(".error-message") : null;
         var fieldValue = field.value.trim();
+        
         if (fieldValue === "") {
-            var errorMessage = document.createElement("span");
-            errorMessage.className = "error-message";
-            errorMessage.textContent = "This field is required";
-            errorMessage.style.color = "red";
+            if (!existingErrorMessage) {
+                var errorMessage = document.createElement("span");
+                errorMessage.className = "error-message";
+                errorMessage.textContent = "This field is required";
+                errorMessage.style.color = "red";
+                errorMessage.style.display = "block";
+                errorMessage.style.fontSize = "0.8rem";
 
-            if (existingErrorMessage) {
-                field.parentNode.replaceChild(errorMessage, existingErrorMessage);
-            } else {
-                field.parentNode.insertBefore(errorMessage, field.nextSibling);
+                // If part of an input-group, insert after the group to avoid flex issues
+                var inputGroup = field.closest(".input-group");
+                if (inputGroup) {
+                    inputGroup.parentNode.insertBefore(errorMessage, inputGroup.nextSibling);
+                } else {
+                    field.parentNode.insertBefore(errorMessage, field.nextSibling);
+                }
             }
 
             field.style.border = "1px solid red";
             isValid = false;
+            
             const collapseElement = field.closest(".collapse");
-            if (collapseElement) {
+            if (collapseElement && !firstInvalidCollapse) {
+                firstInvalidCollapse = collapseElement;
                 const accordionButton = document.querySelector(`[data-bs-target="#${collapseElement.id}"]`);
-                if (accordionButton) {
+                // Only click if it's currently collapsed to ensure it stays open
+                if (accordionButton && accordionButton.classList.contains('collapsed')) {
                     accordionButton.click();
                 }
             }
         } else {
             if (existingErrorMessage) {
-                existingErrorMessage.parentNode.removeChild(existingErrorMessage);
+                existingErrorMessage.remove();
             }
             field.style.border = "";
         }
