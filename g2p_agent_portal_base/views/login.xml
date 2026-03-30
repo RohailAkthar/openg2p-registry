@@ -39,9 +39,6 @@
 
                         <div class="form-group field-password">
                             <label for="password">Password</label>
-                            <span class="reset-password">
-                                <a href="/web/reset_password">Reset Password</a>
-                            </span>
                             <input
                                 type="password"
                                 placeholder="Enter password"
@@ -66,6 +63,9 @@
                             t-attf-class="clearfix oe_login_buttons text-center mb-1 {{'pt-2' if form_small else 'pt-3'}}"
                         >
                             <button type="submit" class="btn btn-primary btn-block">Login</button>
+                            <div class="mt-2 text-end">
+                                <a href="/web/reset_password" class="reset-password-link">Reset Password</a>
+                            </div>
                             <div class="o_login_auth" />
                         </div>
 

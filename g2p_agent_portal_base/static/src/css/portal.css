@@ -195,8 +195,13 @@ footer#bottom .footer-container .nav {
     opacity: 1;
 }
 
-.ssp-login-box .reset-password {
-    float: right;
+.ssp-login-box .reset-password-link {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ssp-login-box .reset-password-link:hover {
+    text-decoration: underline;
 }
 
 .ssp-login-body a {
