@@ -6,66 +6,355 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-02 00:00+0000\n"
-"PO-Revision-Date: 2026-02-02 00:00+0000\n"
+"POT-Creation-Date: 2026-04-02 07:29+0000\n"
+"PO-Revision-Date: 2026-04-06 10:50+0000\n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: Swahili\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "&amp;nbsp;Records "
+msgstr "&amp;nbsp;Rekodi "
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
+msgid "/portal/registration/individual"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid ""
+"<i class=\"fa fa-globe me-2\" style=\"font-size: 1.2rem;\"/>\n"
+"                    <span class=\"text-uppercase\" style=\"font-weight: 600;\">English</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid "<option value=\" \">Select</option>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<option value=\"\">\n"
+"                                                                                                Select</option>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<option value=\"relationship\">\n"
+"                                                                                        select</option>\n"
+"                                                                                    <option value=\"Household head\">Household\n"
+"                                                                                        head</option>\n"
+"                                                                                    <option value=\"Spouse\">\n"
+"                                                                                        Spouse</option>\n"
+"                                                                                    <option value=\"Member/dependent\">\n"
+"                                                                                        Member/dependent</option>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+msgid ""
+"<select id=\"relation\" name=\"relationship\" class=\"form-select\">\n"
+"                                                                                    <option value=\"\">\n"
+"                                                                                        select</option>\n"
+"                                                                                    <option value=\"Household head\">Household\n"
+"                                                                                        head</option>\n"
+"                                                                                    <option value=\"Spouse\">\n"
+"                                                                                        Spouse</option>\n"
+"                                                                                    <option value=\"Member/dependent\">\n"
+"                                                                                        Member/dependent</option>\n"
+"                                                                                </select>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.g2p_success_template
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                    <span>Updated <b>successfully</b></span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid ""
+"<span class=\"header-text text-white fw-bold\" style=\"font-size: 1.1rem; line-height: 1.2;\">\n"
+"                    Zanzibar Universal Pension Scheme <br/> Registration Portal\n"
+"                </span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
+msgid "<span class=\"logo-text fw-bold\">ZUPS Registration Portal</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Address\n"
+"                                                                </span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: "
+"#666666;\">Address</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Date\n"
+"                                                                                        of\n"
+"                                                                                        Birth\n"
+"                                                                                    </span>\n"
+"                                                                                    <span class=\"s_website_form_mark\">\n"
+"                                                                                        *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Date of\n"
+"                                                                    Birth\n"
+"                                                                </span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Date of\n"
+"                                                                    Birth\n"
+"                                                                </span>\n"
+"                                                                <span class=\"s_website_form_mark\">\n"
+"                                                                    *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Email\n"
+"                                                                                        </span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Email\n"
+"                                                                </span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">First\n"
+"                                                                                            Name</span>\n"
+"                                                                                        <span class=\"s_website_form_mark\">\n"
+"                                                                                            *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">First\n"
+"                                                                                        Name</span>\n"
+"                                                                                    <span class=\"s_website_form_mark\">\n"
+"                                                                                        *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Household\n"
+"                                                                    Head\n"
+"                                                                    Name</span>\n"
+"                                                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Last\n"
+"                                                                                            Name</span>\n"
+"                                                                                        <span class=\"s_website_form_mark\">\n"
+"                                                                                            *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Last\n"
+"                                                                                        Name</span>\n"
+"                                                                                    <span class=\"s_website_form_mark\">\n"
+"                                                                                        *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Middle\n"
+"                                                                                            Name</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Middle\n"
+"                                                                                        Name</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\" style=\"color: #666666;\">Relationship\n"
+"                                                                                        with\n"
+"                                                                                        household\n"
+"                                                                                        head</span>\n"
+"                                                                                    <span class=\"s_website_form_mark\">\n"
+"                                                                                        *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                                        Sex</span>\n"
+"                                                                                    <span class=\"s_website_form_mark\">\n"
+"                                                                                        *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    Gender</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    Gender</span>\n"
+"                                                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    Sex</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+msgid ""
+"<span class=\"s_website_form_label_content\">\n"
+"                                                                    Sex</span>\n"
+"                                                                <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "<span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid "<span class=\"s_website_form_mark\">*</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid "<span>English</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid "<span>Swahili</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.error_template
+msgid "<strong>Error:</strong>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Action"
+msgstr "Hatua"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Actions"
+msgstr ""
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Dashboard"
-msgstr "Dashibodi"
+msgid "Active"
+msgstr "Inatumika"
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Email"
-msgstr "Barua pepe"
+msgid "Add"
+msgstr "Ongeza"
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-msgid "Address"
-msgstr "Anwani"
+msgid ""
+"Add\n"
+"                                                                    new\n"
+"                                                                    members"
+msgstr ""
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Date of Birth"
-msgstr "Tarehe ya Kuzaliwa"
+msgid ""
+"Add\n"
+"                                                        Member"
+msgstr ""
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-msgid "Sex"
-msgstr "Jinsia"
+msgid "Age <i class=\"fa fa-sort\"/>"
+msgstr ""
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Gender"
-msgstr "Jinsia"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Submit"
-msgstr "Wasilisha"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Beneficiary List"
+msgstr "Orodha ya Wafaidika"
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
@@ -78,24 +367,20 @@ msgstr "Ghairi"
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-msgid "Actions"
-msgstr "Hatua"
+msgid "Close"
+msgstr "Funga"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid ""
+"Create New <span class=\"mx-1\"/>\n"
+"                                        <span class=\"fa fa-plus\"/>"
+msgstr ""
+"Unda Mpya <span class=\"mx-1\"/>\n"
+"                                        <span class=\"fa fa-plus\"/>"
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Action"
-msgstr "Hatua"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "All Beneficiaries"
-msgstr "Wafaidika Wote"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
 msgid ""
 "Create New <span class=\"mx-1\"/>\n"
 "                            <span class=\"fa fa-plus\"/>"
@@ -104,20 +389,177 @@ msgstr ""
 "                            <span class=\"fa fa-plus\"/>"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Beneficiary List"
-msgstr "Orodha ya Wafaidika"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+msgid "Create New Household"
+msgstr "Unda Kaya Mpya"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+msgid "Create New Individual"
+msgstr "Unda Mtu Binafsi Mpya"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.dashboard_service_provider
+msgid "Details"
+msgstr "Maelezo"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.g2p_success_template
+msgid "Done!"
+msgstr "Tayari!"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Edit"
+msgstr "Hariri"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid "Email"
+msgstr "Barua pepe"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Enter Address"
+msgstr "Ingiza Anwani"
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Search by Beneficiary"
-msgstr "Tafuta Mfaidika"
+msgid "Enumerator"
+msgstr "Mhesabuji"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "FirstName LastName"
+msgstr "Jina la Kwanza Jina la Ukoo"
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Zan ID"
-msgstr "Zan ID"
+msgid "Gender"
+msgstr "Jinsia"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Group Update Request |Registration Portal"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.dashboard_service_provider
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Household"
+msgstr "Kaya"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+msgid "Household Create Request |Registration Portal"
+msgstr "Ombi la Kuunda Kaya | Mfumo wa Usajili"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"Household Head\n"
+"                                                    Details"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+msgid "Household List"
+msgstr "Orodha ya Kaya"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+msgid "Household Name <i class=\"fa fa-sort\"/>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Inactive"
+msgstr "Haitumiki"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.dashboard_service_provider
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid "Individual"
+msgstr "Mtu Binafsi"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid "Individual Create Request |Registration Portal"
+msgstr "Ombi la Kuunda Mtu Binafsi | Mfumo wa Usajili"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid "Individual Details"
+msgstr "Maelezo ya Mtu Binafsi"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+msgid "Last Updated"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Last name"
+msgstr "Jina la ukoo"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Last update"
+msgstr "Sasisho la mwisho"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "List of All Beneficiaries |Registration Portal"
+msgstr "Orodha ya Wafaidika Wote | Mfumo wa Usajili"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.dashboard_service_provider
+msgid "List of Individuals"
+msgstr "Orodha ya Watu Binafsi"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+msgid "List of group beneficiary |Registration Portal"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.dashboard_service_provider
+msgid "List of household"
+msgstr "Orodha ya kaya"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid ""
+"Member\n"
+"                                                            Details"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Member Name <i class=\"fa fa-sort\"/>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+msgid "Members"
+msgstr ""
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
@@ -125,14 +567,46 @@ msgid "Name"
 msgstr "Jina"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Last name"
-msgstr "Jina la Ukoo"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "No members!"
+msgstr ""
 
 #. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
+msgid "Official Logo"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
+msgid "Registration Portal Login"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Relationship"
+msgstr "Uhusiano"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Last update"
-msgstr "Sasisho la mwisho"
+msgid "Search by Beneficiary"
+msgstr "Tafuta kwa Mnufaika"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Sex <i class=\"fa fa-sort\"/>"
+msgstr "Jinsia <i class=\"fa fa-sort\"/>"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Sr.No."
+msgstr "Na."
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
@@ -141,10 +615,24 @@ msgid "Status"
 msgstr "Hali"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "&amp;nbsp;Records"
-msgstr "&amp;nbsp;Rekodi"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Status <i class=\"fa fa-sort\"/>"
+msgstr "Hali <i class=\"fa fa-sort\"/>"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
+msgid "Submit"
+msgstr "Wasilisha"
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Test"
+msgstr ""
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
@@ -153,67 +641,33 @@ msgid "Update"
 msgstr "Sasisha"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Zanzibar Universal Pension Scheme"
-msgstr "Mpango wa Pensheni kwa Jamii Zanzibar"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "List of All Beneficiaries |Registration Portal"
-msgstr "Orodha ya Wafaidika Wote | Tovuti ya Usajili"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "Update Household"
+msgstr "Sasisha Kaya"
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
 msgid "Update Individual"
-msgstr "Sasisha Mfaidika"
+msgstr "Sasisha Mtu Binafsi"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Individual"
-msgstr "Mfaidika"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.dashboard_service_provider
+msgid "View All"
+msgstr "Tazama Vyote"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Individual Details"
-msgstr "Maelezo ya Mfaidika"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Zan ID"
+msgstr "Kitambulisho cha Zan"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "First Name"
-msgstr "Jina la Kwanza"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "active"
+msgstr "inatumika"
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Middle Name"
-msgstr "Jina la Kati"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Last Name"
-msgstr "Jina la Ukoo"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Individual Create Request |Registration Portal"
-msgstr "Ombi la Kuunda Mfaidika | Tovuti ya Usajili"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-msgid "Create New Individual"
-msgstr "Unda Mfaidika Mpya"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Select"
-msgstr "Chagua"
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-msgid "Relationship"
-msgstr "Uhusiano"
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
+msgid "inactive"
+msgstr "haitumiki"

@@ -6,6 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-02 07:29+0000\n"
+"PO-Revision-Date: 2026-04-02 07:29+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,6 +19,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
 msgid "&amp;nbsp;Records"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
+msgid "/portal/registration/individual"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid ""
+"<i class=\"fa fa-globe me-2\" style=\"font-size: 1.2rem;\"/>\n"
+"                    <span class=\"text-uppercase\" style=\"font-weight: 600;\">English</span>"
 msgstr ""
 
 #. module: g2p_registration_portal_base
@@ -67,6 +81,19 @@ msgstr ""
 msgid ""
 "<span class=\"fa fa-check-circle\"/>\n"
 "                                    <span>Updated <b>successfully</b></span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid ""
+"<span class=\"header-text text-white fw-bold\" style=\"font-size: 1.1rem; line-height: 1.2;\">\n"
+"                    Zanzibar Universal Pension Scheme <br/> Registration Portal\n"
+"                </span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
+msgid "<span class=\"logo-text fw-bold\">ZUPS Registration Portal</span>"
 msgstr ""
 
 #. module: g2p_registration_portal_base
@@ -264,6 +291,16 @@ msgid "<span class=\"s_website_form_mark\">*</span>"
 msgstr ""
 
 #. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid "<span>English</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+msgid "<span>Swahili</span>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.error_template
 msgid "<strong>Error:</strong>"
 msgstr ""
@@ -318,6 +355,11 @@ msgid "Age <i class=\"fa fa-sort\"/>"
 msgstr ""
 
 #. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Beneficiary List"
+msgstr ""
+
+#. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
@@ -332,8 +374,14 @@ msgid "Close"
 msgstr ""
 
 #. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid ""
+"Create New <span class=\"mx-1\"/>\n"
+"                                        <span class=\"fa fa-plus\"/>"
+msgstr ""
+
+#. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
 msgid ""
 "Create New <span class=\"mx-1\"/>\n"
 "                            <span class=\"fa fa-plus\"/>"
@@ -347,16 +395,6 @@ msgstr ""
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
 msgid "Create New Individual"
-msgstr ""
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
-msgid "Dashboard"
 msgstr ""
 
 #. module: g2p_registration_portal_base
@@ -397,7 +435,7 @@ msgstr ""
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-msgid "FirstName  MiddleName  LastName"
+msgid "FirstName LastName"
 msgstr ""
 
 #. module: g2p_registration_portal_base
@@ -451,7 +489,6 @@ msgstr ""
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.dashboard_service_provider
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
 msgid "Individual"
@@ -467,11 +504,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_registrant_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_update_form_template
 msgid "Individual Details"
-msgstr ""
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Individual List"
 msgstr ""
 
 #. module: g2p_registration_portal_base
@@ -491,7 +523,7 @@ msgstr ""
 
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "List of Individual beneficiary |Registration Portal"
+msgid "List of All Beneficiaries |Registration Portal"
 msgstr ""
 
 #. module: g2p_registration_portal_base
@@ -540,6 +572,12 @@ msgid "No members!"
 msgstr ""
 
 #. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.custom_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
+msgid "Official Logo"
+msgstr ""
+
+#. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.service_provider_login_page
 msgid "Registration Portal Login"
 msgstr ""
@@ -553,7 +591,7 @@ msgstr ""
 #. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Search by / Beneficiary"
+msgid "Search by Beneficiary"
 msgstr ""
 
 #. module: g2p_registration_portal_base
@@ -566,7 +604,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_list
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
 msgid "Sr.No."
 msgstr ""
 
@@ -618,6 +655,11 @@ msgid "View All"
 msgstr ""
 
 #. module: g2p_registration_portal_base
+#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
+msgid "Zan ID"
+msgstr ""
+
+#. module: g2p_registration_portal_base
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_create_form_template
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
 msgid "active"
@@ -628,29 +670,3 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.group_update_form_template
 msgid "inactive"
 msgstr ""
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "All Beneficiaries"
-msgstr ""
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Beneficiary List"
-msgstr ""
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "List of All Beneficiaries |Registration Portal"
-msgstr ""
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Zanzibar Universal Pension Scheme"
-msgstr ""
-
-#. module: g2p_registration_portal_base
-#: model_terms:ir.ui.view,arch_db:g2p_registration_portal_base.individual_list
-msgid "Search by Beneficiary"
-msgstr ""
-

@@ -23,7 +23,7 @@
                     aria-expanded="false"
                 >
                     <i class="fa fa-globe me-2" style="font-size: 1.2rem;"/>
-                    <span class="text-uppercase" style="font-weight: 600;">English</span>
+                    <span class="text-uppercase" style="font-weight: 600;" t-translation="off">English</span>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="language-dropdown-button">
                     <a
@@ -31,7 +31,7 @@
                         href="/website/lang/en?r=/portal"
                         data-url_code="en"
                     >
-                        <span>English</span>
+                        <span t-translation="off">English</span>
                     </a>
 
                     <a
@@ -39,7 +39,7 @@
                         href="/website/lang/sw?r=/portal"
                         data-url_code="sw"
                     >
-                        <span>Swahili</span>
+                        <span t-translation="off">Swahili</span>
                     </a>
                 </div>
             </div>

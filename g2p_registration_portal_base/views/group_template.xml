@@ -7,12 +7,11 @@
             <div class="main-container">
                 <div class="container-adjuster">
                     <h5 class="all-title">Household</h5>
+                    <span id="trans-records" class="d-none">Records</span>
+                    <span id="trans-found" class="d-none">Found</span>
+                    <span id="trans-of" class="d-none">of</span>
                     <a t-attf-href="/portal/registration/group/create/" style="float:right;">
-                        <button type="button" class="btn btn-primary create-new"> Create New <span
-                                class="mx-1"
-                            />
-                            <span class="fa fa-plus" />
-                        </button>
+                        <button type="button" class="btn btn-primary create-new">Register New <i class="fa fa-plus"/></button>
                     </a>
 
                     <ol class="breadcrumb  breadcrumb-list bg-transparent col-6">

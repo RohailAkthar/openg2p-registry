@@ -46,7 +46,7 @@
                                     aria-haspopup="true"
                                     aria-expanded="false"
                                 >
-                                    <span>English</span>
+                                    <span t-translation="off">English</span>
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="language-dropdown-button">
                                     <a
@@ -54,21 +54,21 @@
                                         href="/website/lang/en?r=/portal"
                                         data-url_code="en"
                                     >
-                                        <span>English</span>
+                                        <span t-translation="off">English</span>
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         href="/website/lang/fr?r=/portal"
                                         data-url_code="fr"
                                     >
-                                        <span>Français</span>
+                                        <span t-translation="off">Français</span>
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         href="/website/lang/tl?r=/portal"
                                         data-url_code="tl"
                                     >
-                                        <span>Filipino</span>
+                                        <span t-translation="off">Filipino</span>
                                     </a>
                                 </div>
                             </div>

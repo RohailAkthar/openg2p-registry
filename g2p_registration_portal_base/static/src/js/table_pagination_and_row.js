@@ -10,6 +10,17 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentPage = 1;
     let filteredRows = allRows;
 
+    function isSwahili() {
+        const lang = document.documentElement.lang || "";
+        const cookie = document.cookie || "";
+        const navbarText = document.body.innerText || "";
+        
+        return lang.includes('sw') || 
+               window.location.pathname.includes('/sw/') ||
+               cookie.includes('frontend_lang=sw') ||
+               navbarText.includes('SWAHILI');
+    }
+
     function showPage(page) {
         const startIndex = (page - 1) * itemsPerPage;
         const endIndex = startIndex + itemsPerPage;
@@ -190,10 +201,8 @@ document.addEventListener("DOMContentLoaded", function () {
             showPage(currentPage);
             renderPageButtons();
             // Update search result count feedback
-            const feedbackText = `Search found ${filteredRows.length} result(s)`;
-            if (searchResultCount) searchResultCount.textContent = feedbackText;
             if (totalRecordsDisplay) {
-                totalRecordsDisplay.textContent = `Found ${filteredRows.length} of ${initialTotalCount} Records`;
+                totalRecordsDisplay.textContent = isSwahili() ? `Imepatikana ${filteredRows.length} kati ya ${initialTotalCount} Rekodi` : `Found ${filteredRows.length} of ${initialTotalCount} Records`;
             }
         } else {
             filteredRows = allRows;
@@ -203,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Clear search result count feedback
             if (searchResultCount) searchResultCount.textContent = "";
             if (totalRecordsDisplay) {
-                totalRecordsDisplay.textContent = `${initialTotalCount} Records`;
+                totalRecordsDisplay.textContent = isSwahili() ? `${initialTotalCount} Rekodi` : `${initialTotalCount} Records`;
             }
         }
 
@@ -229,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Initial setup
     if (totalRecordsDisplay) {
-        totalRecordsDisplay.textContent = `${initialTotalCount} Records`;
+        totalRecordsDisplay.textContent = isSwahili() ? `${initialTotalCount} Rekodi` : `${initialTotalCount} Records`;
     }
     showPage(currentPage);
     renderPageButtons();
