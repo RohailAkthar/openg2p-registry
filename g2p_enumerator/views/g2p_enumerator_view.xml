@@ -8,8 +8,8 @@
         <field name="model">g2p.enumerator</field>
         <field name="arch" type="xml">
             <tree>
-                <field name="name" string="Enumerator" />
-                <field name="enumerator_user_id" />
+                <field name="name" string="Field officer" />
+                <field name="enumerator_user_id" string="Field officer ID" />
                 <field name="data_collection_date" />
                 <field name="enum_latitude" />
                 <field name="enum_longitude" />
@@ -23,12 +23,12 @@
         <field name="model">g2p.enumerator</field>
         <field name="arch" type="xml">
             <form>
-                <group string="Enumerator Details">
-                    <field name="name" string="Enumerator Name" />
-                    <field name="enumerator_user_id" string="Enumerator User ID" />
-                    <field name="data_collection_date" />
+                <group string="Field officer details">
+                    <field name="name" string="Field officer Name" />
+                    <field name="enumerator_user_id" string="Field officer ID" />
+                    <!-- <field name="data_collection_date" /> -->
                 </group>
-                <group string="Enumerator Location">
+                <group string="Field officer Location">
                     <field name="enum_latitude" />
                     <field name="enum_longitude" />
                     <field name="enum_altitude" />
@@ -39,24 +39,24 @@
     </record>
 
     <record id="action_enumerator_action" model="ir.actions.act_window">
-        <field name="name">Enumerators</field>
+        <field name="name">Field officers</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">g2p.enumerator</field>
         <field name="view_mode">tree,form</field>
         <field name="view_id" ref="view_enumerator_config_tree" />
         <field name="help" type="html">
             <p class="o_view_nocontent_smiling_face">
-                No enumerators found!
+                No field officers found!
             </p>
             <p>
-                The system will automatically create an enumerator record when you publish a draft submitted from the portal.
+                The system will automatically create a field officer record when you publish a draft submitted from the portal.
             </p>
         </field>
     </record>
 
     <menuitem
         id="menu_enumerator_config"
-        name="Enumerators"
+        name="Field officers"
         action="action_enumerator_action"
         parent="g2p_registry_base.g2p_configuration_menu_root"
         sequence="50"
