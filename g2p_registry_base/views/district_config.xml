@@ -7,7 +7,7 @@
         <field name="name">view_district_config_tree</field>
         <field name="model">g2p.district</field>
         <field name="arch" type="xml">
-            <tree editable="top">
+            <tree editable="top" import="false" export_xlsx="false">
                 <field name="name" required="1" />
                 <field name="code" />
                 <field name="state_id" string="State" />

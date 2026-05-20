@@ -8,7 +8,7 @@
         <field name="model">g2p.id.type</field>
         <field name="priority">1</field>
         <field name="arch" type="xml">
-            <tree editable="top">
+            <tree editable="top" import="false" export_xlsx="false">
                 <field name="name" required="1" />
                 <field name="id_validation" string="ID Type Validation" />
             </tree>

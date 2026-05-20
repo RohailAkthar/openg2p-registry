@@ -4,7 +4,7 @@
         <field name="name">gender_type_tree</field>
         <field name="model">gender.type</field>
         <field name="arch" type="xml">
-            <tree editable="bottom">
+            <tree editable="bottom" import="false" export_xlsx="false">
                 <field name="code" required="1" />
                 <field name="value" required="1" />
             </tree>

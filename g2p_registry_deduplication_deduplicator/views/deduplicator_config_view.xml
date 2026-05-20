@@ -5,7 +5,7 @@
         <field name="model">g2p.registry.deduplication.deduplicator.config</field>
         <field name="priority" eval="1" />
         <field name="arch" type="xml">
-            <tree>
+            <tree import="false" export_xlsx="false">
                 <field name="name" />
                 <field name="config_name" />
                 <field name="config_index_name" />

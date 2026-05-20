@@ -8,7 +8,7 @@
         <field name="model">g2p.registrant.tags</field>
         <field name="priority">1</field>
         <field name="arch" type="xml">
-            <tree editable="top">
+            <tree editable="top" import="false" export_xlsx="false">
                 <field name="name" />
                 <field name="active" column_invisible="1" />
             </tree>
