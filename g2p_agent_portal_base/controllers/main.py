@@ -84,5 +84,5 @@ class AgentPortalBase(http.Controller):
         if role_to_check == "Agent":
             if not request.session or not request.env.user:
                 raise Unauthorized(_("User is not logged in"))
-            if not request.env.user.partner_id.supplier_rank > 0:
-                raise Forbidden(_("User is not allowed to access the portal"))
+            # if not request.env.user.partner_id.supplier_rank > 0:
+            #     raise Forbidden(_("User is not allowed to access the portal"))

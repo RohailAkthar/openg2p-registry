@@ -42,22 +42,32 @@ class G2PPhoneNumber(models.Model):
             rec.phone_sanitized = ""
             if rec.phone_no:
                 number = rec["phone_no"]
-                sanitized = str(
-                    rec._phone_format(
+                try:
+                    sanitized = rec._phone_format(
                         number=number,
                         country=rec.country_id,
                         force_format="E164",
                         raise_exception=True,
                     )
-                )
-                rec.phone_sanitized = sanitized
+                    rec.phone_sanitized = str(sanitized) if sanitized else number
+                except Exception:
+                    rec.phone_sanitized = number
 
     @api.onchange("phone_no", "country_id")
     def _onchange_phone_validation(self):
         PHONE_REGEX = self.env["ir.config_parameter"].sudo().get_param("g2p_registry.phone_regex")
         if not self.phone_no:
             return
-        self.phone_no = self.env["g2p.phone.number"]._phone_format(number=self.phone_no)
+        try:
+            formatted = self.env["g2p.phone.number"]._phone_format(
+                number=self.phone_no,
+                country=self.country_id,
+                raise_exception=True,
+            )
+            if formatted:
+                self.phone_no = formatted
+        except Exception:
+            pass
         _logger.debug(f"phone_no: {self.phone_no}")
         if PHONE_REGEX:
             if not re.match(PHONE_REGEX, self.phone_no):
