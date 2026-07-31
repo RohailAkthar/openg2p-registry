@@ -65,6 +65,15 @@ document.addEventListener("DOMContentLoaded", function () {
             const genderCell = row.querySelector('[data-search-field="gender"]');
             const genderValue = genderCell ? genderCell.innerText.toLowerCase().trim() : "";
 
+            const shehiaCell = row.querySelector('[data-search-field="shehia"]');
+            const shehiaValue = shehiaCell ? shehiaCell.innerText.toLowerCase().trim() : "";
+
+            const regionCell = row.querySelector('[data-search-field="region"]');
+            const regionValue = regionCell ? regionCell.innerText.toLowerCase().trim() : "";
+
+            const districtCell = row.querySelector('[data-search-field="district"]');
+            const districtValue = districtCell ? districtCell.innerText.toLowerCase().trim() : "";
+
             const lastUpdateCell = row.querySelector('[data-search-field="last_update"]');
             const lastUpdateValue = lastUpdateCell ? lastUpdateCell.innerText.toLowerCase().trim() : "";
 
@@ -80,6 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 (nameValue && nameValue.includes(searchLower)) ||
                 (zanIdValue && zanIdValue.includes(searchLower)) ||
                 isGenderMatch ||
+                (shehiaValue && shehiaValue.includes(searchLower)) ||
+                (regionValue && regionValue.includes(searchLower)) ||
+                (districtValue && districtValue.includes(searchLower)) ||
                 (lastUpdateValue && lastUpdateValue.includes(searchLower))
             );
         });
